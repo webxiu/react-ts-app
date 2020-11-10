@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "tslint: recommended",
+        "tslint-react",
+        "eslint-config-prettier"
+    ],
+    "rules": {
+        "orderred-imports": false
+    },
+    "linterOtions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.js",
+            "coverage/lcov-report/*.js"
+        ]
+    }
+}
